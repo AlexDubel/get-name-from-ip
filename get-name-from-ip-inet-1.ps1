@@ -14,8 +14,8 @@ try {
     #>
     Write-host "dns.Name="$dns.Name "dns.Type="$DNs.Type "DNS.NameHost="$DNS.NameHost -ForegroundColor green
     Write-Host "1234" -ForegroundColor Yellow
-    ForEach-Object                                  {    
-    $IPhash.Add($dns.name,$dns.Type,$dns.Namehost)  | Out-File $Outfile -Append }
+    $dns | ForEach-Object                                  {    
+    $IPhash.Add($PSItem.name,$PSItem.Type,$PSItem.Namehost)  | Out-File $Outfile -Append }
         #$outvar = $dns  |
         #Where-Object Section -eq Additional | 
         #ForEach-Object {

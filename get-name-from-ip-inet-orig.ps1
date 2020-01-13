@@ -1,3 +1,6 @@
+#$IPhash = @{}
+#$IPhash.Add("123321", "$_.IP4Address")
+#exit 
 $name = 'google.com'
 #$name = '149.154.161.20'
 
