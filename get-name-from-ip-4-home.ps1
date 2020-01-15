@@ -2,7 +2,7 @@
 #$Outfile="M:\Scripts\Powershell\get-name-from-ip\ipaddr-2-rez.txt"
 $Outfile="C:\Users\adm-odubel\Documents\PowerShell\Scripts\get-name-from-ip\ipaddr-2-rez.csv"
 Clear-Content $Outfile
-$Error.Clear()
+#$Error.Clear()
 #$name = "77.222.159.230", "185.34.224.179", "149.154.161.20" ,"149.154.161.3", "google.com"
 $name=Get-Content "C:\Users\adm-odubel\Documents\PowerShell\Scripts\get-name-from-ip\ipaddr-1.txt"
 #try {
